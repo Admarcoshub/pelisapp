@@ -11,6 +11,7 @@ import { AppService } from './servicios/app.service';
 export class AppComponent implements OnInit {
   title = 'Web App de Angular works!';
   pelis: any[];
+  
 
 
 constructor (private servicio: AppService) {

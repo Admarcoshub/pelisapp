@@ -36,7 +36,10 @@ export const firebaseConfig = {
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(firebaseConfig)
   ],
-  providers: [],
+  providers: [
+  AppService,
+  AngularFireDatabase
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
